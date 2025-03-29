@@ -1,0 +1,10 @@
+21:48:32 **** Incremental Build of configuration Debug for project transmit_UART_test ****
+make -j16 all 
+arm-none-eabi-size   transmit_UART_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10580	     52	   1636	  12268	   2fec	transmit_UART_test.elf
+Finished building: default.size.stdout
+ 
+
+21:48:32 Build Finished. 0 errors, 0 warnings. (took 130ms)
+

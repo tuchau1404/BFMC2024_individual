@@ -1,0 +1,13 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:bldc_test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blink_test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:remote_control Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:rf_control_master Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:servo_test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:usb_test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:transmit_UART_test Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:bldc_test\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:bldc_test\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blink_test\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blink_test\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:remote_control\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:rf_control_master\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:servo_test\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:usb_test\ Debug/activeLaunchMode=run
