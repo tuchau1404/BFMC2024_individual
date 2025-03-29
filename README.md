@@ -27,7 +27,7 @@ graph TD
     STM32 -->|PWM| Servo[Servo]
     STM32 -->|PWM| Motor[Motor]
     STM32 -->|UART<br>data: speed,<br>angle of servo| Jetson[Jetson Nano Orin]
-    Jetson -->|collect street<br>data of map| Camera[Camera]
+    Camera[Camera] -->|collect street<br>data of map| Jetson
 ```
 
 ---
@@ -69,12 +69,12 @@ Jetson Nano Orin handles:
 ---
 
 ## 🖼️ System Image  
-![Hardware Setup](images/hardware_setup.jpg)
+<img src="./imgs/1.jpg" alt="Image" width="500"/>
 
 ---
 
 ## 🎥 Controller Operation Demo  
-![Controller Demo](gifs/controller_demo.gif)
+![Controller Demo](imgs/demo.gif)
 
 ---
 
@@ -84,3 +84,6 @@ Jetson Nano Orin handles:
 - UART Communication  
 - PWM, RF Control  
 - Python / C++  
+## 🤖 Team AI Repository  
+You can explore the AI simulator and processing code here:  
+🔗 [Self-Driving Car AI Simulator](https://github.com/Hoangpham13579/self-driving-car-simulator)
