@@ -2,7 +2,7 @@
 ### Hardware & Firmware Development - Team Member Report  
 
 ## 👤 Team Role  
-**Role:** Hardware Engineer  
+**Role:** Hardware
 **Responsibilities:**  
 - In charge of all hardware systems and connections  
 - Collect data and send to Team AI for processing  
