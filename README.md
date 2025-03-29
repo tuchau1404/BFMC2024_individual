@@ -18,7 +18,7 @@
 - **Main MCU:** STM32 Nucleo  
 - **Onboard PC:** Jetson Nano Orin  
 - **Communication:** UART (between STM32 and Jetson Nano)
-
+ 
 ---
 ## 🔁 Hardware Communication Flow  
 
