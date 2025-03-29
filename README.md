@@ -21,25 +21,16 @@
  
 ---
 ## 🔁 Hardware Communication Flow  
-
-```dot
-digraph HardwareSystem {
-    rankdir=LR;
-    Controller -> STM32 [label="RF"];
-    STM32 -> Servo [label="PWM"];
-    STM32 -> Motor [label="PWM"];
-    STM32 -> Jetson [label="UART\ndata: speed, angle"];
-    Jetson -> Camera [label="collect street\ndata of map"];
-    
-    Controller [shape=box];
-    STM32 [label="STM32 Nucleo", shape=box];
-    Jetson [label="Jetson Nano Orin", shape=box];
-    Servo [shape=box];
-    Motor [shape=box];
-    Camera [shape=box];
-}
+```mermaid
+graph TD
+    Controller[Controller] -->|RF| STM32[STM32 Nucleo]
+    STM32 -->|PWM| Servo[Servo]
+    STM32 -->|PWM| Motor[Motor]
+    STM32 -->|UART<br>data: speed,<br>angle of servo| Jetson[Jetson Nano Orin]
+    Jetson -->|collect street<br>data of map| Camera[Camera]
 ```
 
+---
 ## 🔁 Hardware Communication Flow  
 STM32 handles:  
 - Motor (speed control)  
