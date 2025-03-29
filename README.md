@@ -31,7 +31,7 @@ graph TD
 ```
 
 ---
-## 🔁 Hardware Communication Flow  
+
 STM32 handles:  
 - Motor (speed control)  
 - Servo (steering angle)  
