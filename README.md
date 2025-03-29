@@ -1,4 +1,4 @@
-# 🚗 Bosch Future Mobility Competition 2023  
+# 🚗 Bosch Future Mobility Competition 2024  
 ### Hardware & Firmware Development - Team Member Report  
 
 ## 👤 Team Role  
