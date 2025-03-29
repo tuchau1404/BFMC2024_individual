@@ -69,7 +69,7 @@ Jetson Nano Orin handles:
 ---
 
 ## 🖼️ System Image  
-<img src="./imgs/1.jpg" alt="Image" width="500"/>
+<img src="./imgs/2.png" alt="Image" width="500"/>
 
 ---
 
